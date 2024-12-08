@@ -2,7 +2,7 @@
 Built and maintained by Alex Trommer -- atrommer@umich.edu
 
 ## Introduction
-As a huge fan of football (soccer), so I chose to investigate upon a data set of football players and their various statistics, such as goals, age, 90s played (90 minutes played), shots on target, nation, position, as well as their teams, the league they play in, and for what season this is representing. Below is a sample of the dataset. This dataset has 88,310 rows and 10 columns, however only a fraction of these rows will actually be used.
+As a huge fan of football (soccer), I chose to investigate upon a data set of football players and their various statistics, such as goals, age, 90s played (90 minutes played), shots on target, nation, position, as well as their teams, the league they play in, and for what season this is representing. Below is a sample of the dataset. This dataset has 88,310 rows and 10 columns, however only a fraction of these rows will actually be used.
 
 
 | Season    | League   | Team           | Player         | Nation   | Position   |   Age |   90s |   Goals |   Shots On Target |
