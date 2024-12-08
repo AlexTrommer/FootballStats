@@ -37,7 +37,7 @@ What about finding the top 50 scorers per year? Well this is pretty simple to ac
   src="Data/PlayerPlot.html"
   width="750"
   height="750"
-  frameborder="0"
+  frameborder="100"
 ></iframe>
 
 
