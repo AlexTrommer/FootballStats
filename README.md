@@ -13,7 +13,7 @@ As a huge fan of football (soccer), so I chose to investigate upon a data set of
 | 2000-2001 | EPL      | Manchester Utd | Paul Scholes   | eng ENG  | MF         |    25 |  27.2 |       6 |                18 |
 | 2000-2001 | EPL      | Manchester Utd | Roy Keane      | ie IRL   | MF         |    28 |  26.4 |       2 |                15 |
 
-The question I have that I will be looking to answer is "Can I build a model to accurately predict whether or not a player won the league in a given year?
+The question I have that I will be looking to answer is "Can I build a model to accurately predict whether or not a player won the league in a given year?"
 
 ## Data Cleaning and Exploratory Data Analysis
 
@@ -35,8 +35,8 @@ What about finding the top 50 scorers per year? Well this is pretty simple to ac
 
 <iframe
   src="Data/PlayerPlot.html"
-  width="800"
-  height="600"
+  width="600"
+  height="500"
   frameborder="0"
 ></iframe>
 
@@ -84,8 +84,8 @@ Here is an updated scatterplot with everything so far.
 
 <iframe
   src="Data/WinnerPlot.html"
-  width="800"
-  height="600"
+  width="600"
+  height="500"
   frameborder="0"
 ></iframe>
 
