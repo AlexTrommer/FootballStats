@@ -45,7 +45,7 @@ What about finding the top 50 scorers per year? Well this is pretty simple to ac
 And here as a scatterplot:
 
 <iframe
-  src="Data/PlayerPlot"
+  src="Data/PlayerPlot.html"
   width="800"
   height="600"
   frameborder="0"
@@ -94,7 +94,7 @@ This is the dictionary in dataframe form that I used to add in the winners!
 Here is an updated scatterplot with everything so far.
 
 <iframe
-  src="Data/WinnerPlot"
+  src="Data/WinnerPlot.html"
   width="800"
   height="600"
   frameborder="0"
