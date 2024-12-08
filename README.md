@@ -35,8 +35,8 @@ What about finding the top 50 scorers per year? Well this is pretty simple to ac
 
 <iframe
   src="Data/PlayerPlot.html"
-  width="1000"
-  height="800"
+  width="750"
+  height="750"
   frameborder="0"
 ></iframe>
 
@@ -84,8 +84,8 @@ Here is an updated scatterplot with everything so far.
 
 <iframe
   src="Data/WinnerPlot.html"
-  width="1000"
-  height="800"
+  width="750"
+  height="750"
   frameborder="0"
 ></iframe>
 
