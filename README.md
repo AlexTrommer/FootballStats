@@ -43,7 +43,13 @@ What about finding the top 50 scorers per year? Well this is pretty simple to ac
 | ('2000-2001', 916)  | Sergej Barbarez         | Bundesliga | Hamburger SV  |    28 | FW,MF      |      22 |                47 |
 
 And here as a scatterplot:
-[]
+
+<iframe
+  src="Data/PlayerPlot"
+  width="800"
+  height="600"
+  frameborder="0"
+></iframe>
 
 
 However, as you can see along the y-axis, there is an issue with some of the data.
@@ -112,7 +118,9 @@ To begin, I took the goals and shots on target columns as predictors, and set th
 
 Here is a plot showcasing the decision boundary of the model!
 
-[]
+[TO BE UPDATED]
+
+It looks alright, but we can do better. Also we must be wary of overfitting. 
 
 # Final Model
 
