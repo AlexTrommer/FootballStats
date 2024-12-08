@@ -1,5 +1,8 @@
-# Introduction
-I am Alex Trommer, and I am a Junior studying Data Science at the University Of Michigan. I am a huge fan of football (soccer), so I chose to investigate upon a data set of football players and their various statistics, such as goals, age, 90s played (90 minutes played), shots on target, nation, position, as well as their teams, the league they play in, and for what season this is representing. Below is a sample of the dataset. This dataset has 88,310 rows and 10 columns, however only a fraction of these rows will actually be used.
+# Football Stats
+Built and maintained by Alex Trommer -- atrommer@umich.edu
+
+## Introduction
+As a huge fan of football (soccer), so I chose to investigate upon a data set of football players and their various statistics, such as goals, age, 90s played (90 minutes played), shots on target, nation, position, as well as their teams, the league they play in, and for what season this is representing. Below is a sample of the dataset. This dataset has 88,310 rows and 10 columns, however only a fraction of these rows will actually be used.
 
 
 | Season    | League   | Team           | Player         | Nation   | Position   |   Age |   90s |   Goals |   Shots On Target |
@@ -12,7 +15,7 @@ I am Alex Trommer, and I am a Junior studying Data Science at the University Of 
 
 The question I have that I will be looking to answer is "Can I build a model to accurately predict whether or not a player won the league in a given year?
 
-# Data Cleaning and Exploratory Data Analysis
+## Data Cleaning and Exploratory Data Analysis
 
 To kick things off (haha), we have to clean the data:
 1:   I filled NA goals with 0
@@ -28,21 +31,7 @@ Out of curiosity, let's see who has scored the most amount of goals in a single 
 Unsurprising to me, given it is Messi, but interesting nonetheless. 
 
 
-What about finding the top 50 scorers per year? Well this is pretty simple to accomplish. By filtering the data and grouping the season, this is essentially what we get! (first 10 rows)
-|                     | Player                  | League     | Team          |   Age | Position   |   Goals |   Shots On Target |
-|:--------------------|:------------------------|:-----------|:--------------|------:|:-----------|--------:|------------------:|
-| ('2000-2001', 2218) | Hernán Crespo           | SerieA     | Lazio         |    25 | FW         |      26 |                56 |
-| ('2000-2001', 2691) | Mateja Kežman           | Eredivisie | PSV Eindhoven |    21 | FW         |      24 |                65 |
-| ('2000-2001', 1100) | Raúl                    | LaLiga     | Real Madrid   |    23 | FW         |      24 |                58 |
-| ('2000-2001', 2302) | Andriy Shevchenko       | SerieA     | Milan         |    23 | FW         |      24 |                55 |
-| ('2000-2001', 1178) | Rivaldo                 | LaLiga     | Barcelona     |    28 | FW,MF      |      23 |                62 |
-| ('2000-2001', 136)  | Jimmy Floyd Hasselbaink | EPL        | Chelsea       |    28 | FW         |      23 |                53 |
-| ('2000-2001', 1346) | Javi Moreno             | LaLiga     | Alavés        |    25 | FW         |      22 |                53 |
-| ('2000-2001', 614)  | Ebbe Sand               | Bundesliga | Schalke 04    |    28 | FW         |      22 |                61 |
-| ('2000-2001', 2396) | Enrico Chiesa           | SerieA     | Fiorentina    |    29 | FW         |      22 |                74 |
-| ('2000-2001', 916)  | Sergej Barbarez         | Bundesliga | Hamburger SV  |    28 | FW,MF      |      22 |                47 |
-
-And here as a scatterplot:
+What about finding the top 50 scorers per year? Well this is pretty simple to accomplish. By filtering the data and grouping the season, here are the top 50 scorers per year in a scatterplot!
 
 <iframe
   src="Data/PlayerPlot.html"
